@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/jogoexperimental.css">
+    <link rel="shortcut icon" type="imagex/png" href="img/BETINHO.png">
+    <title>JOGO EXPERIMENTAL</title>
+</head>
+<body>
+    <body>
+        <nav class="menu">
+            <ul>
+            <li><a href="tela de cadastro.html">Me Cadastrar</a></li>
+            <li><a href="index.html">Entrar</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="sobre.html">Sobre Alfabets</a></li>
+            </ul>
+            </nav>
+    
+
+    <header id="letras">
+        <h1>PEÇA AO SEU PEQUENO PARA CLICAR NAS IMAGENS A SEGUIR:</h1>
+        
+        <img class="A" src="letras/A - BETINHO.png" onclick="audio.play();">
+    
+        <script type="text/javascript">
+            const audio= new Audio();
+            audio.src= "sons/letraA.mp3"
+    
+        </script>
+    
+    
+        <img class="B" src="letras/B.png" onclick="audio2.play();">
+    
+        <script type="text/javascript">
+        const audio2= new Audio();
+        audio2.src= "sons/letraB.mp3"
+    
+        </script>
+        
+    
+        <img class="C" src="letras/C.png" onclick="audio3.play();">
+        
+        <script type="text/javascript">
+        const audio3= new Audio();
+        audio3.src= "sons/letraC.mp3"
+    
+        </script>
+    
+    
+        <img class="D" src="letras/D.png" onclick="audio4.play();">
+        
+        <script type="text/javascript">
+        const audio4= new Audio();
+        audio4.src= "sons/letraD.mp3"
+    
+        </script>
+    
+    
+        <img class="E" src="letras/E.png" onclick="audio5.play();">
+        
+        <script type="text/javascript">
+        const audio5= new Audio();
+        audio5.src= "sons/letraE.mp3"
+    
+    </script>
+    
+    </header>
+    
+    
+     <a href="#continuar"><img class="continuar" src="img/continuar.png"></a>
+    
+     <h1 class="faixa"></h1>
+
+
+     <header id="continuar">
+
+        <img class="F" src="letras/F.png" onclick="audioF.play();">
+    
+        <script type="text/javascript">
+            const audioF= new Audio();
+            audioF.src= "sons/letraF.mp3"
+    
+        </script>
+    
+    
+        <img class="G" src="letras/G.png" onclick="audioG.play();">
+    
+        <script type="text/javascript">
+        const audioG= new Audio();
+        audioG.src= "sons/letraG.mp3"
+    
+        </script>
+        
+    
+        <img class="H" src="letras/H.png" onclick="audioH.play();">
+        
+        <script type="text/javascript">
+        const audioH= new Audio();
+        audioH.src= "sons/letraH.mp3"
+    
+        </script>
+    
+    
+        <img class="I" src="letras/I.png" onclick="audioI.play();">
+        
+        <script type="text/javascript">
+        const audioI= new Audio();
+        audioI.src= "sons/letraI.mp3"
+    
+        </script>
+    
+    
+        <img class="J" src="letras/J.png" onclick="audioJ.play();">
+        
+        <script type="text/javascript">
+        const audioJ= new Audio();
+        audioJ.src= "sons/letraJ.mp3"
+    
+    </script>
+
+     </header>
+     <a href="#questoess"><img class="continuar" src="img/continuar.png"></a>
+    
+     <h1 class="faixa"></h1>
+
+
+
+
+    <header id="questoess"></header><header class="questoes">
+
+    
+
+        <h1> O QUE COMEÇA COM A LETRA 'A' ?</h1><br>
+        <input type="radio" name="question1" id="correct1"><img src="letras/imagens/a/arvore.jpg"> <br>
+        <input type="radio" name="question1"><img src="letras/imagens/h/hospital.jpg"><br>
+
+        
+        <h1>O QUE COMEÇA COM A LETRA 'F' ?</h1><br>
+        <input type="radio" name="question2" id="correct2"><img src="letras/imagens/f/folha.jpg"> <br>
+        <input type="radio" name="question2"><img src="letras/imagens/t/tenis.jpg"> <br>
+        
+        <h1>O QUE COMEÇA COM A LETRA 'C' ?</h1><br>
+        <input type="radio" name="question3" ><img src="letras/imagens/g/girafa.jpg"> <br>
+        <input type="radio" name="question3"id="correct3"><img src="letras/imagens/c/casa.jpg"> <br>
+
+        
+        <input type="submit" name="submit" value="RESPONDER" onClick="result()">
+        <script type="text/javascript">
+        
+        function result()
+        {
+            var score=0;
+            if(document.getElementById('correct1').checked)
+                {	score++;
+                }
+            if(document.getElementById('correct2').checked)
+                {	score++;
+                }
+            if(document.getElementById('correct3').checked)
+                {	score++;
+                }
+         alert("Sua pontuação no jogo experimental foi de : " +score + " pontos");
+
+        }
+        </script>
+
+    </header>
+
+</body>
+</html>

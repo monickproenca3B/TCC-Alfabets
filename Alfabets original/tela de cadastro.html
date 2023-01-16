@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>ALFABETS</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/stylecadastro.css">
+        <link rel="shortcut icon" type="imagex/png" href="img/BETINHO.png">
+
+	</head>
+	<body>
+        <nav class="menu">
+            <li><a href="sobre.html">Sobre Alfabets</a></li>
+            <li><a href="index.html">Entrar</a></li>
+            <li><a href="experimental.html">Jogo Experimental</a></li>
+            <li><a href="home.html">Home</a></li>
+        </ul>
+
+        </nav><br>
+        
+		<div class="cadastro">
+            <form action="cadastroadulto.php" method="post" enctype="multipart/form-data">
+                <h1>Cadastro</h1><br>
+                <input type="text" placeholder="Seu nome Completo" required name="nomeR"><br><br>
+				<input type="text" placeholder="Nome completo da Criança" required name="nomeC"><br><br>
+				<input type="date" placeholder="Digite a data de Nascimento da Criança" required name="idade"><br><br>
+				<input type="email" placeholder="Digite seu E-mail" required name="email"><br><br>
+                <input type="password" placeholder="Crie sua senha" required name="senha" minlength="8" maxlength="8"><br><br>
+                
+                <button>CONTINUAR</button>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/atividade1.css">
+    <link rel="shortcut icon" type="imagex/png" href="img/BETINHO.png">
+
+    <title>ATIVIDADE 1</title>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+        <a href="inicio.php"><img src="img/VOLTAR.png"></a>
+        <li><a href="index.html">Trocar de conta</a></li>
+        <li><a href="home.html">Home</a></li>
+        </ul>
+        </nav>
+
+
+    <header class="cabecalho">
+        <p>Neste aprendizado, você conhecerá as letras que se chamam de vogais no alfabeto,
+            e nas próximas atividades, fixação das letras aprendendo o que começa com as vogais.<br><br> Vamos começar?
+        </p>
+        <a href="#vogais"><img src="img/VAMOS LÁ seta.png"></a>
+
+
+    </header>
+    <h1 class="faixa">
+    .
+    </h1>
+
+
+
+<header id="vogais">
+    <h1>PEÇA AO SEU PEQUENO PARA CLICAR NAS IMAGENS A SEGUIR:</h1>
+    
+    <img class="A" src="letras/A - BETINHO.png" onclick="audio.play();">
+
+    <script type="text/javascript">
+        const audio= new Audio();
+        audio.src= "sons/letraA.mp3"
+
+    </script>
+
+
+    <img class="E" src="letras/E.png" onclick="audio2.play();">
+
+    <script type="text/javascript">
+    const audio2= new Audio();
+    audio2.src= "sons/letraE.mp3"
+
+    </script>
+    
+
+    <img class="I" src="letras/I.png" onclick="audio3.play();">
+    
+    <script type="text/javascript">
+    const audio3= new Audio();
+    audio3.src= "sons/letraI.mp3"
+
+    </script>
+
+
+    <img class="O" src="letras/O.png" onclick="audio4.play();">
+    
+    <script type="text/javascript">
+    const audio4= new Audio();
+    audio4.src= "sons/letraO.mp3"
+
+    </script>
+
+
+    <img class="U" src="letras/U.png" onclick="audio5.play();">
+    
+    <script type="text/javascript">
+    const audio5= new Audio();
+    audio5.src= "sons/letraU.mp3"
+
+</script>
+
+</header>
+ <br><br>
+<form action="Atividade1.php" method="post" enctype="multipart/form-data">
+    <button class="botao">Continuar</button><br><br>
+</form>
+
+
+ <h1 class="faixa"></h1>
+
+</body>
+</html>

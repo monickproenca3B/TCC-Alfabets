@@ -1,0 +1,75 @@
+* {margin: 0; padding: 0; font-size: 100%; font-family:Verdana, Geneva, Tahoma, sans-serif; outline: none;}
+    img {max-width: 100%;}
+    ul {list-style: none;}
+    a {text-decoration: none;}
+
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.471),rgba(0,0,0,0.471)),url(../img/backinicial.png);
+    text-align: center;
+}
+.menu{
+    align-items: center;
+    height: 3%;
+    background-color: #fef9ef;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 9%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    list-style: none;
+}
+
+.menu li{
+    list-style: none;
+    float:left;
+    padding-left: 15%;
+}
+
+.menu li a:hover {
+    color:black;
+}
+
+.menu a{
+    color:#17c3b2;
+}
+
+.logo a:hover{
+	background-color: rgba(0, 0, 0, 0.249);
+	border-radius: 65px 65px 65px 65px;
+	
+}
+
+.logo2 a:hover{
+	background-color: rgba(0, 0, 0, 0.249);
+	border-radius: 65px 65px 65px 65px;
+}
+
+.logo a{
+	background: url(../img/adulto.png) no-repeat; 
+	font-size: 0;
+	width: 446px; 
+	height: 356px;
+	float: left;
+	margin-left: 14%;
+}  
+.logo2 a{
+	background: url(../img/crianca.png) no-repeat; 
+	font-size: 0;
+	width: 446px; 
+	height: 356px;
+	float: right;
+	margin-right: 14%;
+	
+}  
+
+.cabecalho h1{
+	color:white;
+	border-color: black;
+	font-size:30px;
+	font-weight: bold;
+	text-shadow: 0px 8px 8px rgb(0, 0, 0);
+}
+
+
+

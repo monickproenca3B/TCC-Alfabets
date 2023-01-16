@@ -1,0 +1,78 @@
+* {margin: 0; padding: 0; font-size: 100%; font-family:Verdana, Geneva, Tahoma, sans-serif; outline: none;}
+    ul {list-style: none;}
+    a {text-decoration: none;}
+body{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.471),rgba(0,0,0,0.471)),url(../img/backinicial.png);
+}
+.menu{
+    align-items: center;
+    height: 3%;
+    background-color: #fef9ef;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 9%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    list-style: none;
+}
+
+.menu li{
+    list-style: none;
+    float:left;
+    padding-left: 10%;
+}
+
+.menu li a:hover {
+    color:black;
+}
+
+.menu a{
+    color:#17c3b2;
+}
+
+.login{
+	color: #fff;
+	background-color:#FF4444;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 60px;
+	border-radius: 15px;
+	font-size: 100%;
+	text-align: center;
+}
+.login input{
+	float:center;
+	padding: 15px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	border-radius: 5px;
+}
+.login button{
+	background-color:#ffbfbf;
+	border: none;
+	padding: 15px;
+	width: 99%;
+	border-radius: 10px;
+	color:black;
+}
+.login button:hover{
+	background-color:white;
+	cursor: pointer;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.login a{
+	color:rgb(255, 255, 255);
+	font-size: 15px;
+	text-decoration:none;
+	text-transform: uppercase;
+	text-shadow:0px 8px 8px #FF4444;
+	font-weight:bold;
+}
+.login a:hover{
+	text-shadow:0px 8px 8px #eba4a4;
+}

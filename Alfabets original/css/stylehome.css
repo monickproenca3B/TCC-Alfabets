@@ -1,0 +1,124 @@
+* {margin: 0; padding: 0; font-size: 100%; font-family:Verdana, Geneva, Tahoma, sans-serif; outline: none;}
+    img {max-width: 100%;}
+    ul {list-style: none;}
+    li{list-style: none;}
+    a {text-decoration: none;}
+
+    body::-webkit-scrollbar {
+        width: 12px;               
+      }
+      
+      body::-webkit-scrollbar-track {
+        background: rgba(255, 166, 0, 0);        
+      }
+      
+      body::-webkit-scrollbar-thumb {
+        background-color:orange;   
+        border-radius: 20px;       
+        border: 3px solid orange;  
+      }
+
+
+
+.menu{
+    align-items: center;
+    height: 3%;
+    background-color: #fef9ef;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    list-style: none;
+
+}
+.menu li{
+    list-style: none;
+    float:left;
+    padding-left: 10%;
+}
+
+.menu li a:hover {
+    color:black;
+}
+
+.menu a{
+    color:#17c3b2;
+}
+
+.botao img{
+    width:300px;
+    height: 70px;
+    float:right;
+    margin-top: 1%;
+    margin-right: 7%;
+    border-radius: 7px 7px 7px 7px;
+}
+.botao img:hover{
+    width: 305px;
+    height: 75px;
+    margin-right: 6.5%;
+}
+
+
+.cabecalho{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.42),rgba(0,0,0,0.42)), url(../img/cabecalho\ home.png);
+    height: 355px;
+    text-align:justify;
+    padding-bottom: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 3px 3px rgb(16, 15, 15);
+    font-size: 20px;
+    box-shadow: 0px 3px 7px #464646;
+}
+
+.cabecalho p{
+    margin-left: 5%;
+    margin-right: 40%;
+    padding-top: 5%;
+    color:white;
+}
+
+.infos {
+    background-image: url(../img/newsletter.jpg);
+    float:center;
+    width:1350px;
+    height: 780px;
+    margin-left: 5%;
+}
+i{
+    color:white;
+    padding:2%;
+}
+a:hover i{
+	color: rgb(122, 166, 166);
+}
+
+.redes{
+	color:rgb(223, 219, 219);
+}
+
+.footer-bottom{
+	background: #1c736a;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+    list-style:none ;
+    
+}
+.footer-bottom p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	font-size: 100%;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+.copyright{
+    background-color:#1b6860;
+    padding: 1%;
+}
+
+.copyright p{
+    color:#07877a;
+}
+
